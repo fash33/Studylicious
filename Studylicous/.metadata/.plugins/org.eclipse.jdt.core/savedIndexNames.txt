@@ -1,0 +1,1 @@
+INDEX VERSION 1.126+E:\desktop\therap\studylicous\Studylicous\.metadata\.plugins\org.eclipse.jdt.core
