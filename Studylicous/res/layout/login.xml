@@ -6,82 +6,80 @@
     android:background="@drawable/login_page_vertical"
     android:paddingTop="180dp"
     android:paddingLeft="30dp"
-    android:paddingRight="30dp"
-     >
-    
-<EditText
-    android:layout_width="fill_parent"
-    android:layout_height="wrap_content"
-    android:id="@id/email"
-    android:hint="username"
-    android:gravity="center"
-    />
-<EditText
-    android:layout_width="fill_parent"
-    android:layout_height="wrap_content"
-    android:id="@id/pass"
-    android:hint="password"
-    android:password="true"
-    android:gravity="center"
-    />
+    android:paddingRight="30dp">
 
-<Button
-    android:id="@+id/button1"
-    android:layout_width="129dp"
-    android:layout_height="wrap_content"
-    android:layout_gravity="center"
-    android:background="@drawable/login_button"
-    android:text="Login"
-    android:textColor="#FFFFFF"
-     />
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@id/email"
+        android:hint="username"
+        android:gravity="center" />
 
-<LinearLayout
-    android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    android:orientation="horizontal"
-    >
-<CheckBox
-    android:id="@+id/checkBox1"
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
-     />
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@id/pass"
+        android:hint="password"
+        android:password="true"
+        android:gravity="center" />
 
-<TextView
-    android:id="@+id/textView1"
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
-    android:paddingRight="10dp"
-    android:text="Keep me logged in"
-    android:textSize="10dp"
-    android:textAppearance="?android:attr/textAppearanceSmall"
-    android:textColor="#FFFFFF" />
-<TextView
-    android:id="@+id/textView1"
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
-    android:paddingLeft="20dp"
-    android:text="Forget Password?"
-    android:textSize="10dp"
-    android:textAppearance="?android:attr/textAppearanceSmall"
-    android:textColor="#FFFFFF" />
- 
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="129dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@drawable/login_button"
+        android:text="Login"
+        android:textColor="#FFFFFF" />
 
-</LinearLayout>
-<TextView
-    android:id="@+id/textView1"
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
-    android:text="Don't have any account?"
-    android:textSize="15dp"
-    android:textAppearance="?android:attr/textAppearanceSmall"
-    android:textColor="#FFFFFF" />
-<Button
-    android:id="@+id/button1"
-    android:layout_width="129dp"
-    android:layout_height="wrap_content"
-    android:layout_gravity="center"
-    android:background="@drawable/register_button"
-    android:text="Register"
-    android:textColor="#FFFFFF"
-     />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <CheckBox
+            android:id="@+id/checkBox1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingRight="10dp"
+            android:text="Keep me logged in"
+            android:textSize="10dp"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="#FFFFFF" />
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="20dp"
+            android:text="Forget Password?"
+            android:textSize="10dp"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="#FFFFFF" />
+
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Don't have any account?"
+        android:textSize="15dp"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="#FFFFFF" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="129dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@drawable/register_button"
+        android:text="Register"
+        android:textColor="#FFFFFF" />
 </LinearLayout>
