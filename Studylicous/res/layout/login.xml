@@ -11,18 +11,18 @@
     <EditText
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:id="@id/email"
         android:hint="username"
         android:gravity="center" />
+        <!--android:id="@id/email"-->
+
 
     <EditText
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:id="@id/pass"
         android:hint="password"
         android:password="true"
         android:gravity="center" />
-
+    <!--android:id="@id/pass"-->
     <Button
         android:id="@+id/button1"
         android:layout_width="129dp"
