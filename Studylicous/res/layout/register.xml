@@ -3,50 +3,63 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
- 	android:background="@drawable/login_page_vertical"
-    android:paddingTop="180dp"
-    >
-    
+    android:background="@drawable/login_page_vertical"
+    android:paddingTop="250dp">
+
     <EditText
-    android:layout_width="fill_parent"
-    android:layout_height="wrap_content"
-    android:id="@id/email"
-    android:hint="username"
-    android:gravity="center"
-    android:background="@drawable/username_bar"
-    />
+        android:layout_marginBottom="12dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@id/email"
+        android:hint="Username"
+        android:gravity="center"
+        android:background="@drawable/username_bar" />
+
     <EditText
-    android:layout_width="fill_parent"
-    android:layout_height="wrap_content"
-    android:id="@id/email"
-    android:hint="username"
-    android:gravity="center"
-    android:background="@drawable/username_bar"
-    />
+        android:layout_marginBottom="12dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@id/email"
+        android:hint="Password"
+        android:gravity="center"
+        android:background="@drawable/username_bar" />
+
     <EditText
-    android:layout_width="fill_parent"
-    android:layout_height="wrap_content"
-    android:id="@id/email"
-    android:hint="username"
-    android:gravity="center"
-    android:background="@drawable/username_bar"
-    />
+        android:layout_marginBottom="12dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@id/email"
+        android:hint="Repeat Password"
+        android:gravity="center"
+        android:background="@drawable/username_bar" />
+
     <EditText
-    android:layout_width="fill_parent"
-    android:layout_height="wrap_content"
-    android:id="@id/email"
-    android:hint="username"
-    android:gravity="center"
-    android:background="@drawable/username_bar"
-    />
-	<Button
-    android:id="@+id/button1"
-    android:layout_width="129dp"
-    android:layout_height="wrap_content"
-    android:layout_gravity="center"
-    android:background="@drawable/register_button"
-    android:text="Register"
-    android:textColor="#FFFFFF"
-     />
-    
+
+        android:layout_marginBottom="12dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@id/email"
+        android:hint="Email"
+        android:gravity="center"
+        android:background="@drawable/username_bar" />
+
+    <Button
+
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="125dp"
+        android:layout_gravity="center"
+        android:background="@drawable/register_button"
+        android:text="Register"
+        android:textColor="#FFFFFF" />
+
+
 </LinearLayout>
